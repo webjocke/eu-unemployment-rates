@@ -5,6 +5,8 @@ Data is fetched from the [europa.eu](https://europa.eu)'s [public api](https://w
 
 ![Demo gif](https://github.com/webjocke/eu-unemployment-rates/raw/main/demo.gif)
 
+The site can be seen live on [eu-unemployment-rates.joakimjohansson.se](https://eu-unemployment-rates.joakimjohansson.se).
+
 ## Technologies used
 React, Typescript, [Tailwindcss](https://tailwindcss.com/), [HeadlessUI](https://headlessui.com/), [JSONstat-toolkit](https://github.com/jsonstat/toolkit)
 
