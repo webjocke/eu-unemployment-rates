@@ -3,10 +3,12 @@ A website for showing unemployment rates for eu countries.
 
 Data is fetched from the [europa.eu](https://europa.eu)'s [public api](https://webgate.ec.europa.eu/empl/redisstat/databrowser/view/LMP_IND_ACTRU/default/table?lang=en), with the name of `Activation of registered unemployed`, datacode `LMP_IND_ACTRU`.
 
-# Technologies used
-React, Typescript, Tailwind
+![Demo gif](https://github.com/webjocke/eu-unemployment-rates/raw/main/demo.gif)
 
-## CORS Proxy
+## Technologies used
+React, Typescript, [Tailwindcss](https://tailwindcss.com/), [HeadlessUI](https://headlessui.com/), [JSONstat-toolkit](https://github.com/jsonstat/toolkit)
+
+### CORS Proxy
 To get around cors on the europa.eu api I deployed a simple Cloudflare edge worker with this code.
 
 Usage: https://cors-proxy.joakimjohansson.se/ [url]
